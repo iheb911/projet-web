@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="login-page">
+        <div class="form">
+        <form class="login-form" method="POST" name="form" onsubmit="return validated()" action="coach.php">
+            <input autocomplete="off" type="text" placeholder="adresse" name="adresse">
+            <div id="adresse_error">please fill up your email</div>
+            <input autocomplete="off" type="password" placeholder="password" name="password">
+            <div id="password_error">please fill up your email</div>
+            <a href="http://localhost/projet/views/lister.php">login</a>
+
+        </form>
+        </div>
+        </div>
+        <script src="valide.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
